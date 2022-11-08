@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <title>Registrar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+<body>
+    <div class="jumbotron text-center"></div>
+        <form id="registerForm">
+            <div class="container">
+            <h1>Registrar</h1>
+            <p>Por favor, preencha este formulário para criar sua conta.</p>
+            <hr>
+
+            <label for="name"><b>Nome</b></label>
+            <input type="text" placeholder="Insira seu nome" name="name" id="name">
+      
+            <label for="email"><b>E-mail</b></label>
+            <input type="text" placeholder="Insira e-mail" name="email" id="email">
+      
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Insira a senha" name="psw" id="psw">
+      
+            <label for="pswrepeat"><b>Repetir senha</b></label>
+            <input type="password" placeholder="Repetir senha" name="psw-repeat" id="pswrepeat">
+            <hr>
+      
+            <button type="submit" class="registerbtn">Registrar</button>
+            </div>
+      
+            <div class="container signin">
+            <p>Já tem uma conta? <a href="login.html">Entrar</a>.</p>
+            </div>
+         </form>
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js"> </script>
+  <script src="indexjs.js"> </script>       
+</body>
+
+
+</hmtl>
