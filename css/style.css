@@ -1,6 +1,10 @@
-/* Bordered form */
+
 form {
-    border: 3px solid #f1f1f1;
+    border: 4px solid	#363636;
+  }
+
+  body {
+    background-color: #171717;
   }
   
   /* Full-width inputs */
@@ -9,12 +13,27 @@ form {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid hsl(0, 0%, 80%)0, 0%, 80%;
     box-sizing: border-box;
   }
   
+  p{
+    color: #f1f1f1;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1{
+    color: #f1f1f1;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  b{
+    color: #f1f1f1;
+    font-family: 'Courier New', Courier, monospace;
+  }
   button {
-    background-color: #04AA6D;
+    background-color: #2780c9;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -22,6 +41,7 @@ form {
     cursor: pointer;
     width: 100%;
   }
+
   
   button:hover {
     opacity: 0.8;
@@ -33,17 +53,6 @@ form {
     background-color: #f44336;
   }
   
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
   
   /* Add padding to containers */
   .container {
@@ -67,32 +76,4 @@ form {
     .cancelbtn {
       width: 100%;
     }
-  }
-
-  /* SPLASH CSS CODE */
-  .splash{
-    position:fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 9999;
-    background: black;
-    color: white;
-    text-align: center;
-    line-height: 90vh;  
-
-  }
-
-  @keyframes fadeIn{
-    to {
-      opacity: 0;
-    }
-    
-  }
-
-  .fadein{
-    opacity: 1;
-    animation: fadeIn ease-in forwards;
-    -webkit-animation: ciclo-animacao 1.0s;
   }
